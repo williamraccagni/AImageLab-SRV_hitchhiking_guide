@@ -1,3 +1,6 @@
-# AImageLab-SRV hitchhiking guide
+# AImageLab-SRV: hitchhiking guide
+
+> [!NOTE]
+> Per la lingua italiana: [[README-it]] 
 
 

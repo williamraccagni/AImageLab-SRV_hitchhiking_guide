@@ -89,4 +89,12 @@ Eventualmente,  ripetere il processo per l'altro nodo non inserito (02 se inseri
 
 Per allacciarsi tramite SSH premere il tasto freccia `->` sulla voce creata precedentemente. Appena premuto ci chiederà solo la prima volta quale sia il sistema operativo della piattaforma a cui ci stiamo collegando, scegliere quindi Linux. Inserire poi la password del proprio account.
 
+A questo punto siamo collegati in remoto con la macchina scelta.
+
+In `Explorer` possiamo ora aprire una cartella della macchina remota e lavorare sulla macchina stessa. 
+
+## Comandi
+
+> [!CAUTION]
+> TO DO
 

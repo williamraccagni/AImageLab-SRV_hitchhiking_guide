@@ -98,3 +98,15 @@ In `Explorer` possiamo ora aprire una cartella della macchina remota e lavorare 
 > [!CAUTION]
 > TO DO
 
+## SLURM
+
+T
+### SBATCH
+
+
+### SRUN
+
+TO DO
+## TMUX
+
+TO DO

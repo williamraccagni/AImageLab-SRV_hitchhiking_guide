@@ -11,6 +11,30 @@
             "id": "4e3d6bb06e604a32",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "images/ask_ssh.png"
+              },
+              "icon": "lucide-image",
+              "title": "ask_ssh"
+            }
+          },
+          {
+            "id": "6ea089ca77482296",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/remote_development.png"
+              },
+              "icon": "lucide-image",
+              "title": "remote_development"
+            }
+          },
+          {
+            "id": "e5ba1bf35469da53",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "README-it.md",
@@ -21,7 +45,8 @@
               "title": "README-it"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -40,7 +65,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Esplora risorse"
@@ -162,13 +188,14 @@
       "command-palette:Apri riquadro comandi": false
     }
   },
-  "active": "4e3d6bb06e604a32",
+  "active": "e5ba1bf35469da53",
   "lastOpenFiles": [
+    "images/ssh_plus.png",
+    "images/remote_development.png",
+    "images/ask_ssh.png",
     "README.md",
     "README-it.md",
-    "ask_ssh.png",
-    "ssh_plus.png",
-    "remote_development.png",
+    "images",
     "Nuovo Documento di testo.txt"
   ]
 }

@@ -108,7 +108,35 @@ Qui la documentazione ufficiale per approfondire oltre ciò che questa repo ha d
 
 ### Alcuni Comandi utili
 
-A seguire una serie di comandi e più usati fin dai primi istanti di utilizzo di SLURM. 
+A seguire una serie di comandi e più usati fin dai primi istanti di utilizzo di SLURM. Per maggiori informazioni sui comandi cliccare [Qui](https://slurm.schedmd.com/documentation.html).
+
+#### SQUEUE
+
+Il comando `squeue` permette di visualizzare tutti i job presenti in lista (pendenti o in esecuzione) sul cluster. Vediamo un esempio:
+
+```
+[wraccagni@ailb-login-02 NaviLLM]$ squeue
+	  JOBID PARTITION     NAME     USER  ST       TIME  NODES NODELIST(REASON)
+    1234567 all_seria     bash nsurname   R      23:13      1 ailb-login-03
+    1234568 all_usr_p  jobname abcdertg   R      44:27      1 nico
+    1234569 boost_usr jobname2   mrossi  PD       0:00      1 (Priority)
+    ...
+```
+
+Nell'ordine otteniamo tutti i job attualmente sul cluster. Nello specifico, possiamo osservare che ogni valore della riga è associato ad una specifica colonna e significato:
+- `JOBID`: Id del job utile all'identificazione
+- `PARTITION`: partizione su cui il job è in esecuzione
+- `NAME`:  nome del job
+- `USER`:  nome dell'utente che ha lanciato il job
+- `ST`: stato del job:
+	- `R` -> running : job in esecuzione
+	- `PD` -> pending: job in attesa di esecuzione
+- `TIME`: tempo di esecuzione del job, `0:00` se il processo non è ancora partito
+- `NODES`: numero di nodi
+- `NODELIST(REASON)`: nodo su cui il processo è in esecuzione
+#### SCANCEL
+
+Nel caso si fosse lanciato un job sbagliato per qualsiasi ragione, si può cancellare il job dalla lista in qualsiasi momento, anche in caso fosse in esecuzione, tramite il comando `scancel <job_id>`. Esempio: `scancel 1234567`.
 ### SBATCH
 
 

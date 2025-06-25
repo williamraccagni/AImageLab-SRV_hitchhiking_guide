@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e3d6bb06e604a32",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/ask_ssh.png"
-              },
-              "icon": "lucide-image",
-              "title": "ask_ssh"
-            }
-          },
-          {
-            "id": "6ea089ca77482296",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/remote_development.png"
-              },
-              "icon": "lucide-image",
-              "title": "remote_development"
-            }
-          },
-          {
             "id": "e5ba1bf35469da53",
             "type": "leaf",
             "state": {
@@ -45,8 +21,7 @@
               "title": "README-it"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,11 +165,11 @@
   },
   "active": "e5ba1bf35469da53",
   "lastOpenFiles": [
-    "images/ssh_plus.png",
-    "images/remote_development.png",
     "images/ask_ssh.png",
-    "README.md",
+    "images/remote_development.png",
     "README-it.md",
+    "images/ssh_plus.png",
+    "README.md",
     "images",
     "Nuovo Documento di testo.txt"
   ]

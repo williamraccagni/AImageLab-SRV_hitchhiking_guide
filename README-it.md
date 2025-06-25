@@ -93,15 +93,24 @@ A questo punto siamo collegati in remoto con la macchina scelta.
 
 In `Explorer` possiamo ora aprire una cartella della macchina remota e lavorare sulla macchina stessa. 
 
-## Comandi
-
-> [!CAUTION]
-> TO DO
-
 ## SLURM
 
-T
+Se lavori con il sistema HPC del lab avrai a che fare con SLURM. **SLURM** (Simple Linux Utility for Resource Management) è un _job scheduler_ open source usato per gestire e pianificare l'esecuzione di lavori (job) su **sistemi di calcolo ad alte prestazioni (HPC)**, come cluster di supercomputer.
+
+Per farla in breve si occupa di:
+
+- Allocare risorse (CPU, memoria, nodi) per i job.    
+- Pianificare l'esecuzione dei job in base a priorità e disponibilità.    
+- Monitorare e gestire lo stato dei job.
+
+Imparare ad usare SLURM sarà molto utile per sfruttare al meglio le potenzialità del cluster.
+Qui la documentazione ufficiale per approfondire oltre ciò che questa repo ha da offrire: https://slurm.schedmd.com/documentation.html
+
+### Alcuni Comandi utili
+
+A seguire una serie di comandi e più usati fin dai primi istanti di utilizzo di SLURM. 
 ### SBATCH
+
 
 
 ### SRUN
